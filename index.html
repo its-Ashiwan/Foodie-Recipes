@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Foodie Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-3">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="download.jpeg" alt="Logo" class="me-2">Foodie Recipes
+            </a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <form class="d-flex mx-auto search-bar">
+                    <input class="form-control me-2" type="search" placeholder="Search recipes..." aria-label="Search">
+                </form>
+            </div>
+            <div>
+                <button class="btn btn-dark me-2">+ Add Recipe</button>
+                <button class="btn btn-outline-dark">Sign in</button>
+            </div>
+        </div>
+    </nav>
+     
+    <header class="hero-section d-flex align-items-center">
+        <div class="container text-white">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Discover & Share Delicious Recipes</h1>
+                    <p>Find easy and tasty recipes from around the world. Join our community of food lovers!</p>
+                    <a href="#" class="btn btn-dark">Explore Recipes</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container my-5">
+        <h4 class="fw-bold">Popular Categories</h4>
+        <div class="row g-3 mt-3">
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="category-card text-center">
+                    <img src="italian.jpeg" alt="Italian">
+                    <p>Italian</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="category-card text-center">
+                    <img src="asian.jpeg" alt="Asian">
+                    <p>Asian</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="category-card text-center">
+                    <img src="mexican.jpeg" alt="Mexican">
+                    <p>Mexican</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="category-card text-center">
+                    <img src="Mediterranean.jpeg" alt="Mediterranean">
+                    <p>Mediterranean</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="category-card text-center">
+                    <img src="vegeterian.jpeg" alt="Vegetarian">
+                    <p>Vegetarian</p>
+                </div>
+            </div>
+            <div class="col-md-2 col-sm-4 col-6">
+                <div class="category-card text-center">
+                    <img src="deserts.jpeg" alt="Desserts">
+                    <p>Desserts</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<div class="container my-5">
+    <div class="d-flex justify-content-between align-items-center">
+        <h4 class="fw-bold">Latest Recipes</h4>
+        <select class="form-select w-auto">
+            <option selected>Most Recent</option>
+            <option>Most Popular</option>
+            <option>Highest Rated</option>
+        </select>
+    </div>
+
+    <div class="row g-4 mt-3">
+        <div class="col-md-3 col-sm-6">
+            <div class="recipe-card">
+                <img src="Homemade Margherita Pizza.jpeg" alt="Homemade Margherita Pizza">
+                <div class="recipe-info">
+                    <span class="category">Italian</span>
+                    <h5>Homemade Margherita Pizza</h5>
+                    <div class="rating">
+                        <span>⭐ 4.8</span>
+                    </div>
+                    <div class="details">
+                        <span>⏳ 45 mins</span>
+                        <span>🔥 Medium</span>
+                    </div>
+                    <button class="btn btn-light">View Recipe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="recipe-card">
+                <img src="Spicy Miso Ramen.jpeg" alt="Spicy Miso Ramen">
+                <div class="recipe-info">
+                    <span class="category">Asian</span>
+                    <h5>Spicy Miso Ramen</h5>
+                    <div class="rating">
+                        <span>⭐ 4.9</span>
+                    </div>
+                    <div class="details">
+                        <span>⏳ 1 Hour</span>
+                        <span>🔥 Advanced</span>
+                    </div>
+                    <button class="btn btn-light">View Recipe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="recipe-card">
+                <img src="Classic Greek Salad.jpeg" alt="Classic Greek Salad">
+                <div class="recipe-info">
+                    <span class="category">Mediterranean</span>
+                    <h5>Classic Greek Salad</h5>
+                    <div class="rating">
+                        <span>⭐ 4.7</span>
+                    </div>
+                    <div class="details">
+                        <span>⏳ 15 mins</span>
+                        <span>🔥 Easy</span>
+                    </div>
+                    <button class="btn btn-light">View Recipe</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="recipe-card">
+                <img src="Chocolate Lava Cake.jpeg" alt="Chocolate Lava Cake">
+                <div class="recipe-info">
+                    <span class="category">Desserts</span>
+                    <h5>Chocolate Lava Cake</h5>
+                    <div class="rating">
+                        <span>⭐ 4.9</span>
+                    </div>
+                    <div class="details">
+                        <span>⏳ 30 mins</span>
+                        <span>🔥 Medium</span>
+                    </div>
+                    <button class="btn btn-light">View Recipe</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    
+<div class="container my-5 text-center">
+    <h4 class="fw-bold">Join Our Community</h4>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <div class="community-card">
+                <i class="fas fa-utensils"></i>
+                <h5 class="mt-3">Share Recipes</h5>
+                <p>Share your favorite recipes with our growing community of food lovers.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="community-card">
+                <i class="fas fa-users"></i>
+                <h5 class="mt-3">Connect</h5>
+                <p>Connect with other food enthusiasts and exchange cooking tips.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="community-card">
+                <i class="fas fa-star"></i>
+                <h5 class="mt-3">Get Inspired</h5>
+                <p>Discover new recipes and get inspired by our community’s creations.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container my-5 contactus">
+    <h4 class="text-center fw-bold">Contact Us</h4>
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label">Name</label>
+                    <input type="text" class="form-control" placeholder="Your name">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="you@example.com">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-dark">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<footer class="footer mt-5 py-4">
+    <div class="container">
+        <div class="row text-white">
+            <div class="col-md-3">
+                <h5 class="mb-3">LOGO</h5>
+                <!-- <img src="download.jpeg"> -->
+                <p>Discover and share the world's best recipes with our community of food lovers.</p>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Recipes</a></li>
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">Categories</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Italian</a></li>
+                    <li><a href="#">Asian</a></li>
+                    <li><a href="#">Mexican</a></li>
+                    <li><a href="#">Desserts</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="mb-3">Follow Us</h5>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="text-white">
+        <div class="text-center text-white">
+            &copy; 2024 Foodie Recipes. All rights reserved.
+        </div>
+    </div>
+</footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
